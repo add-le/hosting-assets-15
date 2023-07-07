@@ -1,0 +1,2 @@
+function l(l,i){var e=l.length,n=-1,u,f;if(i==null){while(++n<e){if((u=l[n])!=null&&u>=u){f=u;while(++n<e){if((u=l[n])!=null&&u>f){f=u}}}}}else{while(++n<e){if((u=i(l[n],n,l))!=null&&u>=u){f=u;while(++n<e){if((u=i(l[n],n,l))!=null&&u>f){f=u}}}}}return f}export{l as m};
+//# sourceMappingURL=p-87ef56bd.js.map
